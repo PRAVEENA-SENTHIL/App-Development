@@ -1,0 +1,122 @@
+.patientproduct-container{
+    display:flex;
+    flex-wrap:wrap;
+     width:100%;
+    justify-content:center;
+  } 
+  .patientproduct-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    border: 2px solid rgb(99, 32, 3);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    ; 
+    bottom:10%;
+    padding-left: 20px;
+    background-image: url('https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  }
+  .side-panel
+  {
+    padding-left: 250px;
+    padding-top: 10px;
+  }
+  .dropdown-content
+  {
+    margin-left: 200px;
+    height: 40px;
+    width: 60px;
+    color: white;
+    background-color: rgb(99, 32, 3);
+    font-size: 0.875rem;
+    text-align: center;
+    padding-top: 10px;
+    
+  }
+  .addordel
+  {
+    padding-top: 20px;
+    padding-left: 1300px;
+  }
+  
+  .add
+  {
+    right: 100px;
+    background-color:rgb(99, 32, 3) ;
+    width: 100px;
+    padding-right:25px;
+    padding-left:15px ;
+    color: white;
+  }
+  .del
+  {
+    right: 100px;
+    background-color:rgb(99, 32, 3) ;
+    width: 100px;
+    padding-right:25px;
+    padding-left:15px ;
+    color: white;
+  }
+  .add:hover {
+    background-color: darkorange;
+  }
+  .del:hover {
+    background-color: darkorange;
+  }
+  .patientproduct-image {
+    width: 250px;
+    height: 200px;
+    object-fit:inherit;
+    border-radius: 60%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .patientproduct-name {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .patientproduct-description {
+    font-size: 0.875rem;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .patientproduct-price {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin: 10px 0;
+    color: rgb(99, 32, 3);;
+  }
+  
+  .ask-query-button {
+    padding: 10px 20px;
+    background-color: rgb(99, 32, 3);;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.875rem;
+    cursor: pointer;
+  }
+  
+  .ask-query-button:hover {
+    background-color: darkorange;
+  }
+  
+  .patientproduct-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   }
+  .original-price {
+    text-decoration: line-through;
+    color: lightgray;
+    font-size: 0.875rem;
+  }
